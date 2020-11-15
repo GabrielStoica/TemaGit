@@ -14,6 +14,21 @@ public class Scoala {
         this.tip = tip;
         this.elevi_gimnaziu = elevi_gimnaziu;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+        builder.append(this.nume + " cu adresa " + this.adresa + " are urmatorii elevi: ");
+
+        for(Elev e:elevi_gimnaziu){
+            builder.append(e);
+            builder.append("\n");
+
+            return builder.toString();
+        }
+    }
+
+
 }
 
 
