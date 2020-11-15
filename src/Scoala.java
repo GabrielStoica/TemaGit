@@ -13,6 +13,8 @@ public class Scoala {
         this.adresa = adresa;
         this.tip = tip;
         this.elevi_gimnaziu = elevi_gimnaziu;
+
+        
     }
 
     @Override
