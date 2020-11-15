@@ -11,4 +11,9 @@ public class elev {
         this.varsta = varsta;
         this.clasa = clasa;
     }
+
+    public void print_info()
+    {
+        System.out.println("Elevul " + nume + prenume + " are " + varsta + " ani " + " clasa " + clasa);
+    }
 }
